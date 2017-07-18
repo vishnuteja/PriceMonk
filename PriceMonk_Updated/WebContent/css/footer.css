@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 20px; /* .push must be the same height as .footer */
+	clear: both;
+}
+
+#foot{
+	position: fixed; left: 0px; bottom: 0px; width: 100%;
+	background: url("../images/headerCopy.jpg") left top repeat-x;
+	 border-bottom: 1px #5e7d99 solid;
+	clear: both;
+	height:20px;
+	margin-top:-10px; 
+}

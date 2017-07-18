@@ -1,0 +1,642 @@
+
+		article, aside, details, figcaption, figure, 
+
+		header, hgroup, menu, nav, section {
+
+		  display: block;
+
+		}
+
+		
+
+		fieldset
+
+		{
+
+		  margin: 0;
+
+		  padding: 0;
+
+		  border: 0;
+
+		}
+
+		
+
+		input:focus,textarea:focus {
+
+		  outline: none;
+
+		}
+
+		
+
+		/*----------------------*/
+
+		
+
+	body
+
+		{
+
+			font-family: Arial, Helvetica, sans-serif;
+
+			color: #444;
+
+			background: url("../images/bg.jpg");
+
+			margin: 0;
+
+			font-size: 13px;
+			left: 25px;
+
+		}     
+		
+
+		/*----------------------*/
+
+		
+
+		.cf:before,
+
+		.cf:after {
+
+		  content:"";
+
+		  display:table;
+
+		}
+
+		
+
+		.cf:after {
+
+		  clear:both;
+
+		}
+
+		
+
+		.cf {
+
+		  zoom:1;
+
+		}
+
+		  
+
+		/*----------------------*/
+
+		
+
+		header {
+		  background: url("../images/headerCopy.jpg") left top repeat-x;
+		  border-bottom: 1px #5e7d99 solid;
+		  clear: both;
+		  height: 59px;
+		}
+
+
+		/*----------------------*/
+
+		
+
+		nav ul {
+
+		  margin: 0;
+
+		  padding: 0;
+
+		  list-style: none;
+
+		  position: relative;
+
+		  float: right;
+
+		  background: #eee;
+
+		  border-bottom: 1px solid #fff;
+
+		  -moz-border-radius: 3px;
+
+		  -webkit-border-radius: 3px;
+
+		  border-radius: 3px;    
+
+		}
+
+		
+
+		nav li {
+
+		  float: left;          
+
+		}
+
+		
+
+		nav #login {
+
+		  border-right: 1px solid #ddd;
+
+		  -moz-box-shadow: 1px 0 0 #fff;
+
+		  -webkit-box-shadow: 1px 0 0 #fff;
+
+		  box-shadow: 1px 0 0 #fff;  
+
+		}
+
+		
+
+		nav #login-trigger,
+
+		nav #signup a {
+
+		  display: inline-block;
+
+		  *display: inline;
+
+		  *zoom: 1;
+
+		  height: 25px;
+
+		  line-height: 25px;
+
+		  font-weight: bold;
+
+		  padding: 0 8px;
+
+		  text-decoration: none;
+
+		  color: #444;
+
+		  text-shadow: 0 1px 0 #fff; 
+
+		}
+
+		
+
+		nav #signup a {
+
+		  -moz-border-radius: 0 3px 3px 0;
+
+		  -webkit-border-radius: 0 3px 3px 0;
+
+		  border-radius: 0 3px 3px 0;
+
+		}
+
+		
+
+		nav #login-trigger {
+
+		  -moz-border-radius: 3px 0 0 3px;
+
+		  -webkit-border-radius: 3px 0 0 3px;
+
+		  border-radius: 3px 0 0 3px;
+
+		}
+
+		
+
+		nav #login-trigger:hover,
+
+		nav #login .active,
+
+		nav #signup a:hover {
+
+		  background-imge: url('../images/bg.jpg');
+
+		}
+
+		
+
+		nav #login-content {
+
+		  display: none;
+
+		  position: absolute;
+
+		  top: 24px;
+
+		  right: 0;
+
+		  z-index: 999;    
+
+		  background: #fff;
+
+		  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+
+		  background-image: -webkit-linear-gradient(top, #fff, #eee);
+
+		  background-image: -moz-linear-gradient(top, #fff, #eee);
+
+		  background-image: -ms-linear-gradient(top, #fff, #eee);
+
+		  background-image: -o-linear-gradient(top, #fff, #eee);
+
+		  background-image: linear-gradient(top, #fff, #eee);  
+
+		  padding: 15px;
+
+		  -moz-box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+
+		  -webkit-box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+
+		  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+
+		  -moz-border-radius: 3px 0 3px 3px;
+
+		  -webkit-border-radius: 3px 0 3px 3px;
+
+		  border-radius: 3px 0 3px 3px;
+
+		}
+
+		
+
+		nav li #login-content {
+
+		  right: 0;
+
+		  width: 250px;  
+
+		}
+
+		
+
+		/*--------------------*/
+
+		
+
+		#inputs input {
+
+		  background: #f1f1f1;
+
+		  padding: 6px 5px;
+
+		  margin: 0 0 5px 0;
+
+		  width: 238px;
+
+		  border: 1px solid #ccc;
+
+		  -moz-border-radius: 3px;
+
+		  -webkit-border-radius: 3px;
+
+		  border-radius: 3px;
+
+		  -moz-box-shadow: 0 1px 1px #ccc inset;
+
+		  -webkit-box-shadow: 0 1px 1px #ccc inset;
+
+		  box-shadow: 0 1px 1px #ccc inset;
+
+		}
+
+		
+
+		#inputs input:focus {
+
+		  background-color: #fff;
+
+		  border-color: #e8c291;
+
+		  outline: none;
+
+		  -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+
+		  -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+
+		  box-shadow: 0 0 0 1px #e8c291 inset;
+
+		}
+
+		
+
+		/*--------------------*/
+
+		
+
+		#login #actions {
+
+		  margin: 10px 0 0 0;
+
+		}
+
+		
+
+		#login #submit {		
+
+		  background-color: #d14545;
+
+		  background-image: -webkit-gradient(linear, left top, left bottom, from(#e97171), to(#d14545));
+
+		  background-image: -webkit-linear-gradient(top, #e97171, #d14545);
+
+		  background-image: -moz-linear-gradient(top, #e97171, #d14545);
+
+		  background-image: -ms-linear-gradient(top, #e97171, #d14545);
+
+		  background-image: -o-linear-gradient(top, #e97171, #d14545);
+
+		  background-image: linear-gradient(top, #e97171, #d14545);
+
+		  -moz-border-radius: 3px;
+
+		  -webkit-border-radius: 3px;
+
+		  border-radius: 3px;
+
+		  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+
+		  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+
+		  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+
+		  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+
+		  border: 1px solid #7e1515;
+
+		  float: left;
+
+		  height: 30px;
+
+		  padding: 0;
+
+		  width: 100px;
+
+		  cursor: pointer;
+
+		  font: bold 14px Arial, Helvetica;
+
+		  color: #fff;
+
+		}
+
+		
+
+		#login #submit:hover,
+
+		#login #submit:focus {		
+
+		  background-color: #e97171;
+
+		  background-image: -webkit-gradient(linear, left top, left bottom, from(#d14545), to(#e97171));
+
+		  background-image: -webkit-linear-gradient(top, #d14545, #e97171);
+
+		  background-image: -moz-linear-gradient(top, #d14545, #e97171);
+
+		  background-image: -ms-linear-gradient(top, #d14545, #e97171);
+
+		  background-image: -o-linear-gradient(top, #d14545, #e97171);
+
+		  background-image: linear-gradient(top, #d14545, #e97171);
+
+		}	
+
+		
+
+		#login #submit:active {		
+
+		  outline: none;
+
+		  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+
+		  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+
+		  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+
+		}
+
+		
+
+		#login #submit::-moz-focus-inner {
+
+		  border: none;
+
+		}
+
+		
+
+		#login label {
+
+		  float: right;
+
+		  line-height: 30px;
+
+		}
+
+		
+
+		#login label input {
+
+		  position: relative;
+
+		  top: 2px;
+
+		  right: 2px;
+
+		}
+
+		
+
+		/*--------------------*/
+
+		
+
+		#about {
+
+			margin: 15px;
+
+		}
+
+		
+
+		#about a {
+
+			color: #555;
+
+		}
+
+		
+		#highlight:hover
+		{ 
+			border:solid 0.5px;
+			margin:9px;
+		}
+		
+
+		
+		#searchWord , input, select
+		{
+			border-radius:5px;
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			padding:5px;
+			border:1.5px solid blue;
+			box-shadow:0 0 5px #7dbef1;
+			-moz-box-shadow:0 0 5px #7dbef1;
+			-webkit-box-shadow:0 0 5px #7dbef1;
+			background-image: linear-gradient(top, #d14545, #e97171);
+			color: black;
+			font-size: 15px;
+			letter-spacing:0.1em;
+		}
+		
+		
+		/* Mask for background, by default is not display */
+#mask {
+	display: none;
+	background: #000;
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+/* You can customize to your needs  */
+.login-popup{
+	display:none;
+	background-imge: url('../images/headerCopy.jpg');
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	float: left;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999; /* CSS3 */
+        -moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+        -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+        -moz-border-radius: 3px; /* Firefox */
+        -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close { Position the close button
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input { 
+	background: white;
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:#000; 
+        border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:6px 6px 4px;
+	width:200px;
+}
+
+form.signin input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+.button { 
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+	background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+	border-color:#000; 
+	border-width:1px;
+        border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	padding:6px 6px 4px;
+	margin-top:10px;
+	font:12px; 
+	width:214px;
+}
+.button:hover { background:#ddd; }
+
+.suggestionsBox {
+position: relative;
+left: 260px;
+margin: 0px 0px 0px 0px;
+width: 200px;
+background-color: #7845DD;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border: 2px solid #000;
+color: #fff;
+}
+.suggestionList {
+margin: 0px;
+padding: 0px;
+}
+.suggestionList li {
+margin: 0px 0px 3px 0px;
+padding: 3px;
+cursor: pointer;
+}
+.suggestionList li:hover {
+background-color: #DD45CD;
+}
+
+/*----------------------------------*/
+
+a, a[href], a:visited {
+color: 
+#1A76B9;
+}
+a, a[href], a:visited {
+color: 
+black;
+}
+a:visited {
+color: 
+black;
+}
+a[href] {
+color: 
+black;
+}
+a, a[href], a:visited {
+color: 
+black;
+}
+a {
+color: #333;
+text-decoration: none;
+}
+
+a:hover
+{
+	color: green;
+}
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
